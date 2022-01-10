@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="assignmentsTestNG">
+	<test name="ProductSearch_SwitchToTab_GetProductInfo">
+		<classes>
+			<class name="assignmentsTestNG.FlipkartProduct"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="SearchingProduct_AddingToCart_RemovingFromCart">
+		<classes>
+			<class name="assignmentsTestNG.TutorialsNinjaAddToCart"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test
+		name="SearchingLaptopAnd_PrintingTitle_Attributes_CSS_URL_InConsole">
+		<classes>
+			<class name="assignmentsTestNG.TutorialsNinjaSearch"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="SignIn_SignOut">
+		<classes>
+			<class name="assignmentsTestNG.SwagLabs"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Registering_PatientDetails_Confirmation">
+		<classes>
+			<class name="assignmentsTestNG.OpenMRS"></class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

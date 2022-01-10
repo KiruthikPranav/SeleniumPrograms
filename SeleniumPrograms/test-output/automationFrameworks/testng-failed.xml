@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [automationFrameworks]">
+  <test thread-count="5" name="From_Alert(failed)">
+    <classes>
+      <class name="homePractice.SeleniumPractice">
+        <methods>
+          <include name="a"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- homePractice.SeleniumPractice -->
+    </classes>
+  </test> <!-- From_Alert(failed) -->
+  <test thread-count="5" name="Flipkart(failed)">
+    <classes>
+      <class name="assignmentsTestNG.FlipkartProduct">
+        <methods>
+          <include name="c_getInfo"/>
+        </methods>
+      </class> <!-- assignmentsTestNG.FlipkartProduct -->
+    </classes>
+  </test> <!-- Flipkart(failed) -->
+</suite> <!-- Failed suite [automationFrameworks] -->

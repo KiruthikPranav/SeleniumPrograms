@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGFramework">
+	<test thread-count="5" name="YourLogo_Registration_SignOut_SignIn">
+		<classes>
+			<class name="testNGFramework.YourLogoForTestNGAlphabetical"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

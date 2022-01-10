@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGFramework]">
+  <test thread-count="5" name="YourLogo_Registration_SignOut_SignIn(failed)">
+    <classes>
+      <class name="testNGFramework.YourLogoForTestNGAlphabetical">
+        <methods>
+          <include name="e_signOut"/>
+          <include name="b_initialRegistration"/>
+          <include name="f_signIn"/>
+          <include name="d_addressInfo"/>
+          <include name="c_personalInfo"/>
+        </methods>
+      </class> <!-- testNGFramework.YourLogoForTestNGAlphabetical -->
+    </classes>
+  </test> <!-- YourLogo_Registration_SignOut_SignIn(failed) -->
+</suite> <!-- Failed suite [testNGFramework] -->
